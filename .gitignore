@@ -11,6 +11,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 uv.lock
+.env
 
 # macOS
 .DS_Store

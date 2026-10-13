@@ -3,6 +3,11 @@ import numpy as np
 import pandas as pd
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 
+import os
+
+secret_id = os.getenv("TENCENT_SECRET_ID")
+secret_key = os.getenv("TENCENT_SECRET_KEY")
+
 
 def mae(y_vrai, y_prevu):
     """Mean Absolute Error: the average gap, in ice creams, between reality and forecast.
